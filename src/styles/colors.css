@@ -1,0 +1,14 @@
+:root {
+
+    --color-blue: #19228F;
+    --color-purple: #5743BE;
+    --color-white: #ffffff;
+
+    --color-white-85-opacity: rgba(255, 255, 255, 0.85);
+    --color-white-30-opacity: rgba(255, 255, 255, 0.30);
+
+
+
+    --color-overlay-gradient: radial-gradient(at 100% 0%, var(--color-blue), var(--color-purple));
+
+}
