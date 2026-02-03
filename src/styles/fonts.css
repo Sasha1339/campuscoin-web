@@ -1,6 +1,8 @@
 :root {
 
     --font-title-big-size: 64px;
+    --font-hint-title-big-size: 320px;
+    --font-title-small-size: 20px;
     --font-description-medium-size: 16px;
     --font-button-medium-size: 16px;
 

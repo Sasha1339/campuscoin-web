@@ -3,12 +3,25 @@
     --color-blue: #19228F;
     --color-purple: #5743BE;
     --color-white: #ffffff;
+    --color-black: #000000;
 
     --color-white-85-opacity: rgba(255, 255, 255, 0.85);
+    --color-white-60-opacity: rgba(255, 255, 255, 0.60);
+    --color-white-25-opacity: rgba(255, 255, 255, 0.25);
     --color-white-30-opacity: rgba(255, 255, 255, 0.30);
+    --color-white-29-opacity: rgba(255, 255, 255, 0.29);
+    --color-white-15-opacity: rgba(255, 255, 255, 0.15);
+    --color-blue-50-opacity: rgba(25, 34, 143, 0.5);
+    --color-blue-21-opacity: rgba(25, 34, 143, 0.21);
+    --color-blue-15-opacity: rgba(25, 34, 143, 0.15);
+    --color-blue-80-opacity: rgba(25, 34, 143, 0.8);
+
+    --color-black-25-opacity: rgba(0, 0, 0, 0.25);
 
 
 
     --color-overlay-gradient: radial-gradient(at 100% 0%, var(--color-blue), var(--color-purple));
+    --color-overlay-white-gradient: linear-gradient(to bottom, var(--color-white-29-opacity), transparent);
+    --color-white-transparent-gradient: linear-gradient(to top, var(--color-white), transparent);
 
 }

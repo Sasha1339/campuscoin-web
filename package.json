@@ -24,6 +24,7 @@
     "react-router-dom": "^7.9.3",
     "redux": "^5.0.1",
     "redux-thunk": "^3.1.0",
+    "vite-plugin-svgr": "^4.5.0",
     "uuid": "^11.1.0",
     "zod": "^3.24.3"
   },
