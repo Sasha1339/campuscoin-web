@@ -9,4 +9,5 @@ export const colorsByBackground = {
   'color-white': '#01157E',
   'color-white-30-opacity': '#fff',
   'color-transparent': 'rgba(255,255,255,0.6)',
+  'color-blue': '#fff',
 }

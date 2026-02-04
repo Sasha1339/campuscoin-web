@@ -23,5 +23,6 @@
     --color-overlay-gradient: radial-gradient(at 100% 0%, var(--color-blue), var(--color-purple));
     --color-overlay-white-gradient: linear-gradient(to bottom, var(--color-white-29-opacity), transparent);
     --color-white-transparent-gradient: linear-gradient(to top, var(--color-white), transparent);
+    --color-blue-transparent-gradient: linear-gradient(to top, var(--color-blue), var(--color-white-60-opacity) 20%, transparent);
 
 }

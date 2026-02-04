@@ -4,7 +4,7 @@
     display: flex;
     justify-content: start;
     align-items: start;
-    padding: 150px 250px;
+    padding: 150px var(--clamp-padding-horizontal-max-250);
     box-sizing: border-box;
     flex-direction: column;
     gap: 50px;
@@ -60,9 +60,100 @@
 
 .problem {
     grid-column: 5 span;
-    height: 480px;
+    min-height: 480px;
 }
 
 .space_problem {
     grid-column: 2 span;
+}
+
+@media (max-width: 900px) {
+
+    .main {
+        width: 100vw;
+        position: relative;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        padding: 150px 20px;
+        box-sizing: border-box;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .header_slide {
+        gap: 0;
+        display: flex;
+        width: 100%;
+    }
+
+    .problems {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .problem {
+        max-width: 586px;
+        display: flex;
+        height: 480px;
+    }
+
+    .problem_wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .problem_right_side {
+        justify-content: end;
+    }
+
+    .problem_left_side {
+        justify-content: start;
+    }
+
+    .hint {
+        margin-top: 50px;
+        font-family: Inter, sans-serif;
+        font-size: var(--font-description-medium-size);
+        font-weight: 400;
+        max-width: 586px;
+        gap: 20px;
+        color: var(--color-blue);
+        line-height: var(--font-description-medium-size);
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: start;
+        text-align: start;
+    }
+
+    .hint_text {
+        margin: 0;
+        width: 70%;
+    }
+
+}
+
+@media (max-width: 744px) {
+    .main {
+        width: 100vw;
+        position: relative;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        padding: 150px 20px 50px;
+        box-sizing: border-box;
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 500px) {
+    .hint_text {
+        margin: 0;
+        width: 100%;
+    }
 }

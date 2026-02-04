@@ -16,7 +16,7 @@ export const Contact = () => {
         <input className={styles.input} placeholder={'(999) 999 99-99'}/>
         <button className={styles.button}>Регистрация</button>
       </div>
-      <img src={or}/>
+      <img src={or} className={styles.line}/>
       <div className={styles.buttons}>
         <Button className={styles.button_inner} color={'color-transparent'}>
           <IconSvg name={'icon-vk'} size={24} />

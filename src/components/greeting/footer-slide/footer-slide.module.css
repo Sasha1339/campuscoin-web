@@ -1,11 +1,12 @@
 .main {
     width: 100vw;
-    height: 50vh;
+    min-height: 50vh;
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: start;
-    padding: 50px 250px;
+    padding: 50px var(--clamp-padding-horizontal-max-250) ;
     box-sizing: border-box;
     flex-direction: row;
     gap: 50px;
@@ -14,12 +15,12 @@
 
 .text_overlay {
     position: absolute;
-    bottom: -100px;
+    bottom: -5vw;
     left: 0;
     width: 100%;
     text-align: center;
     font-family: Inter, sans-serif;
-    font-size: var(--font-hint-title-big-size);
+    font-size: 17vw;
     color: transparent;
     white-space: nowrap;
     -webkit-text-stroke: 1px var(--color-blue);
@@ -104,4 +105,21 @@
     background-color: var(--color-blue);
     border-radius: 15px;
     padding: 4px 15px;
+}
+
+@media (max-width: 1600px) {
+    .main {
+        width: 100vw;
+        min-height: 50vh;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: start;
+        padding: 50px var(--clamp-padding-horizontal-max-250) 300px;
+        box-sizing: border-box;
+        flex-direction: row;
+        gap: 50px;
+        overflow: hidden;
+    }
 }

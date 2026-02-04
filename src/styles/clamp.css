@@ -1,0 +1,5 @@
+:root {
+    --clamp-padding-horizontal-max-250: clamp(20px, 12%, 250px);
+    --clamp-padding-horizontal-max-1000: clamp(100px, 33%, 1000px);
+    --clamp-padding-vertical-max-150: clamp(70px, 12%, 150px);
+}

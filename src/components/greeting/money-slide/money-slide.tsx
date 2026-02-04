@@ -11,10 +11,9 @@ export const MoneySlide = () => {
   return (
     <div className={styles.main}>
       <div className={styles.overlay}>
-        <div></div>
-        <div>
+
           <img className={styles.image} src={image} />
-        </div>
+
       </div>
       <div className={styles.wrapper}>
         <div className={styles.greeting}>

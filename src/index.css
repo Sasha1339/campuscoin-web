@@ -1,5 +1,6 @@
 @import "./styles/colors.css";
 @import "./styles/fonts.css";
+@import "./styles/clamp.css";
 
 body {
   margin: 0;
@@ -7,5 +8,9 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background: var(--color-blue);
+}
+
+.body-inner {
   background: var(--color-white);
 }

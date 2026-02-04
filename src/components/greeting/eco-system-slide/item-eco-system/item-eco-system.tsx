@@ -1,5 +1,4 @@
 import styles from './item-eco-system.module.css';
-import arrow from '@/assets/svg/arrow-down.svg';
 import type {FC} from "react";
 import {IconSvg} from "@/components/shared/icon-svg/icon-svg.tsx";
 
@@ -20,11 +19,11 @@ export const ItemEcoSystem: FC<Props> = ({image, className = '', paddingImageWra
         <div className={styles.text}>{text}</div>
         <div className={styles.more}>
           <div>подробнее</div>
-          <IconSvg name={'arrow-down'} color={'color-blue'} />
+          <IconSvg name={'arrow-down'} color={'color-blue'} size={20} />
         </div>
       </div>
       <div className={styles.image_wrapper} style={paddingImageWrapper ? {padding: paddingImageWrapper} : {}}>
-        <img src={image}/>
+        <img src={image} className={styles.image}/>
       </div>
 
 

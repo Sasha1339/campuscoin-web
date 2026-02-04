@@ -32,3 +32,15 @@
 .column_17_percent {
     height: 17%;
 }
+
+@media (max-width: 900px) {
+    .main {
+        margin-top: 20%;
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: end;
+    }
+}
