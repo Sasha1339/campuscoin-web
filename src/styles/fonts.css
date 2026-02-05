@@ -1,0 +1,28 @@
+:root {
+
+    --font-title-big-size: 64px;
+    --font-hint-title-big-size: 320px;
+    --font-title-small-size: 20px;
+    --font-description-medium-size: 16px;
+    --font-hint-description-medium-size: 16px;
+    --font-button-medium-size: 16px;
+
+    @media (max-width: 1200px) {
+        --font-hint-title-big-size: 280px;
+    }
+
+    @media (max-width: 900px) {
+        --font-title-big-size: 58px;
+        --font-hint-description-medium-size: 14px;
+        --font-hint-title-big-size: 250px;
+    }
+
+    @media (max-width: 744px) {
+        --font-title-big-size: 32px;
+        --font-button-medium-size: 14px;
+        --font-title-small-size: 18px;
+        --font-description-medium-size: 14px;
+    }
+
+
+}

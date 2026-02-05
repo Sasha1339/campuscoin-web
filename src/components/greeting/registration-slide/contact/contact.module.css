@@ -1,0 +1,119 @@
+.main {
+    width: clamp(470px, 25vw, 25vw);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    font-size: var(--font-description-medium-size);
+    font-family: Inter, sans-serif;
+    gap: 20px
+}
+
+.buttons {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.button_inner {
+    width: 100%;
+    padding: 10px 10px;
+    white-space: nowrap;
+}
+
+.input_wrapper {
+    width: 100%;
+    border-radius: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border: 1px solid var(--color-white-30-opacity);
+    background-color: var(--color-white-15-opacity);
+}
+
+.input {
+    display: flex;
+    flex: 1;
+    outline: none;
+    min-width: 20px;
+    border: none;
+    background: none;
+    color: var(--color-white);
+    font-size: var(--font-description-medium-size);
+}
+
+.input::placeholder {
+    color: var(--color-white-30-opacity);
+}
+
+.line {
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px;
+    width: 30%;
+    font-weight: bold;
+    color: var(--color-blue);
+    background-color: var(--color-white);
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-size: var(--font-description-medium-size);
+}
+
+.choose {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    padding: 10px 5px 10px 10px;
+    background-color: var(--color-white-25-opacity);
+    border-radius: 20px;
+}
+
+.text_bold {
+   font-weight: bold;
+    color: var(--color-white);
+}
+
+@media (max-width: 744px) {
+
+    .main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        font-size: var(--font-description-medium-size);
+        font-family: Inter, sans-serif;
+        gap: 20px
+    }
+
+
+    .buttons {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .input_wrapper {
+        width: 100%;
+        border-radius: 30px;
+        padding: 5px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        border: 1px solid var(--color-white-30-opacity);
+        background-color: var(--color-white-15-opacity);
+    }
+
+}

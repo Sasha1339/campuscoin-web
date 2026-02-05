@@ -1,0 +1,25 @@
+@import "./styles/colors.css";
+@import "./styles/fonts.css";
+@import "./styles/clamp.css";
+@import "./styles/safe-area.css";
+
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  background: var(--color-purple-second);
+}
+
+.body-inner {
+  background: var(--color-white);
+}
+
+.overlay-back {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: calc(0px - var(--safe-area-inset-top));
+  left: 0;
+  z-index: 0;
+  background: var(--color-overlay-gradient);
+}
