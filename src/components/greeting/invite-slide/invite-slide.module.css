@@ -1,6 +1,6 @@
 .main {
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 100px);
     position: relative;
     display: flex;
     justify-content: start;
@@ -104,7 +104,7 @@
 
     .main {
         width: 100vw;
-        height: 1230px;
+        height: 1130px;
         position: relative;
         display: flex;
         flex-direction: column;

@@ -3,6 +3,7 @@
     --color-blue: #19228F;
     --color-purple: #5743BE;
     --color-white: #ffffff;
+    --color-purple-second: #5340ba;
     --color-black: #000000;
 
     --color-white-85-opacity: rgba(255, 255, 255, 0.85);
@@ -21,6 +22,7 @@
 
 
     --color-overlay-gradient: radial-gradient(at 100% 0%, var(--color-blue), var(--color-purple));
+    --color-overlay-gradient-reverse: radial-gradient(at 100% 100%, var(--color-blue), var(--color-purple));
     --color-overlay-white-gradient: linear-gradient(to bottom, var(--color-white-29-opacity), transparent);
     --color-white-transparent-gradient: linear-gradient(to top, var(--color-white), transparent);
     --color-blue-transparent-gradient: linear-gradient(to top, var(--color-blue), var(--color-white-60-opacity) 20%, transparent);

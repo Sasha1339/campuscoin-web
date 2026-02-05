@@ -1,6 +1,6 @@
 import styles from './invite-slide.module.css';
 import image_desktop from '@/assets/png/invite-slide-overlay.png';
-import image_mobile from '@/assets/svg/invite-slide-overlay-mobile.svg';
+import image_mobile from '@/assets/png/invite-slide-overlay-mobile.png';
 import {Button} from "@/components/shared/button/button.tsx";
 import {useMediaQuery} from "@/components/shared/hooks/useMobileVersion.ts";
 
