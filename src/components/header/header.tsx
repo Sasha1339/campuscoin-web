@@ -6,7 +6,7 @@ import {IconSvg} from "@/components/shared/icon-svg/icon-svg.tsx";
 
 export const Header = () => {
 
-  const {platform} = useMediaQuery('(width <= 900px)')
+  const {platform} = useMediaQuery('(width <= 1500px)')
 
   return (
     <header className={styles.header}>
