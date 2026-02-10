@@ -1,13 +1,13 @@
 // import './App.css'
-import {GreetingPage} from "./pages/greeting-page/greeting-page.tsx";
 import {Header} from "@/components/header/header.tsx";
+import {Outlet} from "react-router-dom";
 
 export const App = () => {
 
   return (
     <>
       <Header />
-      <GreetingPage />
+      <Outlet />
     </>
   )
 }

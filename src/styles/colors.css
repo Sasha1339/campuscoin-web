@@ -1,10 +1,15 @@
 :root {
 
     --color-blue: #19228F;
+    --color-blue-second: #01157E;
+    --color-gray: #8A8FA8;
     --color-purple: #5743BE;
     --color-white: #ffffff;
     --color-purple-second: #5340ba;
     --color-black: #000000;
+    --color-card-button: #E6E9F8;
+    --color-card-button-second: #F0F2F9;
+    --color-card-button-border: #D6DAE6;
 
     --color-white-85-opacity: rgba(255, 255, 255, 0.85);
     --color-white-60-opacity: rgba(255, 255, 255, 0.60);

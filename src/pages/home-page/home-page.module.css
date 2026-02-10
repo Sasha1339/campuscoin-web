@@ -1,0 +1,16 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    max-width: 600px;
+    padding: 10px 0;
+    box-sizing: border-box;
+
+}
