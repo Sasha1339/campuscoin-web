@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: start;
+    width: 100vw;
 }
 
 .article {
@@ -11,6 +12,7 @@
     align-items: center;
     max-width: 600px;
     padding: 10px 0;
+    gap: 10px;
     box-sizing: border-box;
 
 }

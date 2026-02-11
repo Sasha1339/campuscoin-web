@@ -3,6 +3,7 @@
     --color-blue: #19228F;
     --color-blue-second: #01157E;
     --color-gray: #8A8FA8;
+    --color-gray-second: #4A4F6A;
     --color-purple: #5743BE;
     --color-white: #ffffff;
     --color-purple-second: #5340ba;
@@ -10,6 +11,7 @@
     --color-card-button: #E6E9F8;
     --color-card-button-second: #F0F2F9;
     --color-card-button-border: #D6DAE6;
+    --color-green: #1FBF75;
 
     --color-white-85-opacity: rgba(255, 255, 255, 0.85);
     --color-white-60-opacity: rgba(255, 255, 255, 0.60);
@@ -21,6 +23,7 @@
     --color-blue-21-opacity: rgba(25, 34, 143, 0.21);
     --color-blue-15-opacity: rgba(25, 34, 143, 0.15);
     --color-blue-80-opacity: rgba(25, 34, 143, 0.8);
+    --color-blue-second-15-opacity: rgba(1, 21, 126, 0.15);
 
     --color-black-25-opacity: rgba(0, 0, 0, 0.25);
 

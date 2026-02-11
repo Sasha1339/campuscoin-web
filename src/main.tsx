@@ -17,7 +17,7 @@ createRoot(document.getElementById('root')!).render(
           path="/"
           element={
             <Navigate
-              to="/greeting"
+              to="/home"
               replace
             />
           }
