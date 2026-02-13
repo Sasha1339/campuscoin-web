@@ -7,6 +7,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import {App} from "./App.tsx";
 import {GreetingPage} from "@/pages/greeting-page/greeting-page.tsx";
 import {HomePage} from "@/pages/home-page/home-page.tsx";
+import {HistoryPage} from "@/pages/history-page/history-page.tsx";
 
 
 createRoot(document.getElementById('root')!).render(
@@ -32,6 +33,10 @@ createRoot(document.getElementById('root')!).render(
           <Route
             path="home"
             element={<HomePage />}
+          />
+          <Route
+            path="history"
+            element={<HistoryPage />}
           />
         </Route>
       </Routes>

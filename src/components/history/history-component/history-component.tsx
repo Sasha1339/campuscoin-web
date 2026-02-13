@@ -40,6 +40,78 @@ const list = [
     sumBasic: 100,
     operationCoin: 'increase',
     sumCoin: 1000
+  },
+  {
+    type: 'operation-sberbank' as keyof typeof icons,
+    title: 'Сергей С.',
+    description: 'Перевод',
+    operationBasic: 'decrease',
+    sumBasic: 100,
+    operationCoin: 'increase',
+    sumCoin: 1000
+  },
+  {
+    type: 'operation-sberbank' as keyof typeof icons,
+    title: 'Сергей С.',
+    description: 'Перевод',
+    operationBasic: 'decrease',
+    sumBasic: 100,
+    operationCoin: 'increase',
+    sumCoin: 1000
+  },
+  {
+    type: 'operation-sberbank' as keyof typeof icons,
+    title: 'Сергей С.',
+    description: 'Перевод',
+    operationBasic: 'decrease',
+    sumBasic: 100,
+    operationCoin: 'increase',
+    sumCoin: 1000
+  },
+  {
+    type: 'operation-sberbank' as keyof typeof icons,
+    title: 'Сергей С.',
+    description: 'Перевод',
+    operationBasic: 'decrease',
+    sumBasic: 100,
+    operationCoin: 'increase',
+    sumCoin: 1000
+  },
+  {
+    type: 'operation-sberbank' as keyof typeof icons,
+    title: 'Сергей С.',
+    description: 'Перевод',
+    operationBasic: 'decrease',
+    sumBasic: 100,
+    operationCoin: 'increase',
+    sumCoin: 1000
+  },
+  {
+    type: 'operation-sberbank' as keyof typeof icons,
+    title: 'Сергей С.',
+    description: 'Перевод',
+    operationBasic: 'decrease',
+    sumBasic: 100,
+    operationCoin: 'increase',
+    sumCoin: 1000
+  },
+  {
+    type: 'operation-sberbank' as keyof typeof icons,
+    title: 'Сергей С.',
+    description: 'Перевод',
+    operationBasic: 'decrease',
+    sumBasic: 100,
+    operationCoin: 'increase',
+    sumCoin: 1000
+  },
+  {
+    type: 'operation-sberbank' as keyof typeof icons,
+    title: 'Сергей С.',
+    description: 'Перевод',
+    operationBasic: 'decrease',
+    sumBasic: 100,
+    operationCoin: 'increase',
+    sumCoin: 1000
   }
 ]
 
