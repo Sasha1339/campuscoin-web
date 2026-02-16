@@ -6,12 +6,13 @@ type Props = {
   className?: string;
   type?: 'button' | 'submit';
   color?: keyof typeof colors;
+  onClick?: () => void;
 }
 
-export const Button: FC<Props & PropsWithChildren> = ({children, className = '', type = 'button', color = 'color-white', ...props}) => {
+export const Button: FC<Props & PropsWithChildren> = ({children, onClick, className = '', type = 'button', color = 'color-white', ...props}) => {
 
   return (
-    <button className={`${styles.main} ${className}`} style={{backgroundColor: colors[color], color: colorsByBackground[color]}} type={type}>
+    <button onClick={onClick} className={`${styles.main} ${className}`} style={{backgroundColor: colors[color], color: colorsByBackground[color]}} type={type}>
       {children}
     </button>
   )

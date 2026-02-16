@@ -9,7 +9,7 @@ export const CardList: FC<Props> = () => {
   return (
     <div className={styles.list}>
       <Card />
-      <Card />
+      {/*<Card />*/}
       <div className={styles.button_add_account}>
         Добавить счет
       </div>

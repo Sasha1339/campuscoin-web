@@ -1,0 +1,13 @@
+profile-element {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+user-name {
+    font-size: var(--font-description-medium-size);
+    font-family: Inter, sans-serif;
+    color: var(--color-gray-second);
+}

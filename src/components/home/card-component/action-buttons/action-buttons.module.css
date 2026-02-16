@@ -4,3 +4,16 @@
     min-width: 154px;
     gap: 10px;
 }
+
+@media (max-width: 459px) {
+
+    .main {
+        display: grid;
+        grid-template-rows: none;
+        grid-template-columns: 1fr 1fr 1fr;
+        flex: 1;
+        gap: 10px;
+        max-height: 50px;
+    }
+
+}

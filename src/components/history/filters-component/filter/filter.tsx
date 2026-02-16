@@ -15,7 +15,7 @@ export const Filter: FC<Props> = ({ name, id, icon, active }) => {
 
   return (
     <div className={clsx(styles.filter, {[styles.active]: active})}>
-      {icon && <IconSvg name={icon} size={18} /> }
+      {icon && <IconSvg name={icon} size={18} color={'color-blue'} /> }
       <span className={styles.text_name}>{name}</span>
     </div>
   )

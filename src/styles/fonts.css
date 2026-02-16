@@ -7,11 +7,15 @@
     --font-description-medium-size: 16px;
     --font-description-medium-small-size: 14px;
     --font-price-big-size: 22px;
+    --font-price-medium-size: 20px;
     --font-description-small-size: 12px;
     --font-hint-description-medium-size: 16px;
+    --font-hint-description-small-size: 14px;
     --font-button-medium-size: 16px;
     --font-button-medium-small-size: 14px;
     --font-info-small-size: 12px;
+    --font-title-link-size: 24px;
+    --font-currence-big: 40px;
 
     @media (max-width: 1200px) {
         --font-hint-title-big-size: 280px;
@@ -26,8 +30,15 @@
     @media (max-width: 744px) {
         --font-title-big-size: 32px;
         --font-button-medium-size: 14px;
+
         --font-title-small-size: 18px;
         --font-description-medium-size: 14px;
+    }
+
+    @media (max-width: 459px) {
+        --font-button-medium-small-size: 12px;
+        --font-description-medium-small-size: 12px;
+        --font-price-big-size: 16px;
     }
 
 

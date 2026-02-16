@@ -2,7 +2,7 @@ import type {FC} from "react";
 import styles from './history-page.module.css';
 import {SummaryComponent} from "@/components/history/summary-component/summary-component.tsx";
 import {FiltersComponent} from "@/components/history/filters-component/filters-component.tsx";
-import {HistoryComponent} from "@/components/history/history-component/history-component.tsx";
+import {HistoryComponent} from "@/components/shared/history-component/history-component.tsx";
 
 const filters = [
   {
@@ -46,7 +46,7 @@ export const HistoryPage: FC<Props> = () => {
       <article className={styles.article}>
         <SummaryComponent />
         <FiltersComponent filters={filters} />
-        <HistoryComponent />
+        <HistoryComponent page={'history'} />
       </article>
     </main>
   )

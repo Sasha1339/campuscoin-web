@@ -10,6 +10,7 @@ interface IconProps extends SVGProps<SVGSVGElement> {
   size?: number | string;
   rotate?: number;
   className?: string;
+  onClick?: () => void;
 }
 
 // Импортируем все SVG файлы динамически
@@ -43,6 +44,7 @@ export const IconSvg: FC<IconProps> = ({
                                          className = '',
                                          color,
                                          rotate,
+                                         onClick,
                                          ...props
                                        }) => {
   const IconComponent = icons[name];
@@ -52,7 +54,10 @@ export const IconSvg: FC<IconProps> = ({
     return null;
   }
 
-  return (<div style={{width: objectFit === 'coverWidth' || !objectFit ? `${size}px` : 'auto', height: objectFit === 'coverHeight' || !objectFit ? `${size}px` : 'auto'}}>
+  return (<div onClick={onClick} style={{
+      width: objectFit === 'coverWidth' || !objectFit ? `${size}px` : 'auto',
+      height: objectFit === 'coverHeight' || !objectFit ? `${size}px` : 'auto'
+    }}>
 
       <IconComponent
         className={`${styles.main} ${className}`}

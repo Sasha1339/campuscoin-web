@@ -10,9 +10,11 @@
 .button_add_account {
     height: 100%;
     width: 154px;
+    min-width: 154px;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     color: var(--color-gray);
     box-sizing: border-box;
     padding: 16px 11px;
@@ -20,4 +22,18 @@
     background-color: var(--color-card-button-second);
     font-size: var(--font-button-medium-small-size);
     font-family: Inter, sans-serif;
+}
+
+@media (max-width: 459px) {
+    .list {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        gap: 10px;
+        flex: 1;
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
 }
