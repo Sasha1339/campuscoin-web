@@ -1,0 +1,19 @@
+.section {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: var(--color-card-button-second);
+    border-radius: 12px;
+}
+
+.title {
+    font-family: Inter, sans-serif;
+    font-size: var(--font-description-medium-size);
+    color: var(--color-black);
+    font-weight: bold;
+}

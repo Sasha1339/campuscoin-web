@@ -1,0 +1,30 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100vw;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    max-width: min(600px, 100vw);
+    padding: 10px 0;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 619px) {
+    .article {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        width: min(600px, 100vw);
+        padding: 10px 10px;
+        gap: 10px;
+        box-sizing: border-box;
+    }
+}

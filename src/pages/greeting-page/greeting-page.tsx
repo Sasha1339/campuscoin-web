@@ -4,7 +4,6 @@ import {MainProblem} from "@/components/greeting/main-problem/main-problem.tsx";
 import {MoneySlide} from "@/components/greeting/money-slide/money-slide.tsx";
 import {EcoSystemSlide} from "@/components/greeting/eco-system-slide/eco-system-slide.tsx";
 import {RegistrationSlide} from "@/components/greeting/registration-slide/registration-slide.tsx";
-import {FooterSlide} from "@/components/greeting/footer-slide/footer-slide.tsx";
 
 
 type Props = {}
@@ -18,7 +17,6 @@ export const GreetingPage: FC<Props> = () => {
       <MoneySlide />
       <EcoSystemSlide />
       <RegistrationSlide />
-      <FooterSlide />
     </div>
   )
 

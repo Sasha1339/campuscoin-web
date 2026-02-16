@@ -1,0 +1,51 @@
+.main {
+    height: 100%;
+    aspect-ratio: 1.6 / 1;
+    background-image: url("../../../../../assets/png/bg_card.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.count {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    font-size: var(--font-button-medium-small-size);
+    font-family: Inter, sans-serif;
+    color: var(--color-white);
+}
+
+.coin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    justify-content: start;
+}
+
+.info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    font-size: var(--font-info-small-size);
+    font-family: Inter, sans-serif;
+    color: var(--color-white);
+}
+

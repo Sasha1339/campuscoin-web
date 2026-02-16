@@ -1,0 +1,57 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+}
+
+.description {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.text_title {
+    font-family: Inter, sans-serif;
+    font-size: var(--font-title-very-small-size);
+    color: var(--color-gray-second);
+}
+
+.text_description {
+    font-family: Inter, sans-serif;
+    font-size: var(--font-description-small-size);
+    color: var(--color-gray);
+}
+
+.sum {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.coin {
+    padding: 2px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    font-family: Inter, sans-serif;
+    font-size: var(--font-button-medium-small-size);
+    color: var(--color-blue-second);
+    gap: 5px;
+    box-sizing: border-box;
+    background-color: var(--color-blue-second-15-opacity);
+}
+
+.basic {
+    font-family: Inter, sans-serif;
+    font-size: var(--font-button-medium-size);
+    color: var(--color-gray-second);
+}
+
+.basic_positive {
+    color: var(--color-green);
+}

@@ -1,10 +1,19 @@
 :root {
 
     --color-blue: #19228F;
+    --color-blue-second: #01157E;
+    --color-gray: #8A8FA8;
+    --color-gray-second: #4A4F6A;
     --color-purple: #5743BE;
     --color-white: #ffffff;
     --color-purple-second: #5340ba;
+    --color-purple-third: #9C95EF;
+    --color-purple-fourth: #857BFC;
     --color-black: #000000;
+    --color-card-button: #E6E9F8;
+    --color-card-button-second: #F0F2F9;
+    --color-card-button-border: #D6DAE6;
+    --color-green: #1FBF75;
 
     --color-white-85-opacity: rgba(255, 255, 255, 0.85);
     --color-white-60-opacity: rgba(255, 255, 255, 0.60);
@@ -16,6 +25,8 @@
     --color-blue-21-opacity: rgba(25, 34, 143, 0.21);
     --color-blue-15-opacity: rgba(25, 34, 143, 0.15);
     --color-blue-80-opacity: rgba(25, 34, 143, 0.8);
+    --color-blue-second-15-opacity: rgba(1, 21, 126, 0.15);
+    --color-blue-second-35-opacity: rgba(1, 21, 126, 0.35);
 
     --color-black-25-opacity: rgba(0, 0, 0, 0.25);
 
@@ -26,5 +37,6 @@
     --color-overlay-white-gradient: linear-gradient(to bottom, var(--color-white-29-opacity), transparent);
     --color-white-transparent-gradient: linear-gradient(to top, var(--color-white), transparent);
     --color-blue-transparent-gradient: linear-gradient(to top, var(--color-blue), var(--color-white-60-opacity) 20%, transparent);
+    --color-gradient-adv: linear-gradient(to right, var(--color-purple-third), var(--color-purple-fourth));
 
 }

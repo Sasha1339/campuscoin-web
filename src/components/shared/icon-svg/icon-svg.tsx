@@ -6,9 +6,11 @@ import styles from './icon-svg.module.css';
 interface IconProps extends SVGProps<SVGSVGElement> {
   name: string;
   color?: keyof typeof colors;
+  objectFit?: 'coverWidth' | 'coverHeight';
   size?: number | string;
   rotate?: number;
   className?: string;
+  onClick?: () => void;
 }
 
 // Импортируем все SVG файлы динамически
@@ -36,13 +38,15 @@ Object.keys(iconModules).forEach((path) => {
 });
 
 export const IconSvg: FC<IconProps> = ({
-                                     name,
-                                     size = 30,
-                                     className = '',
+                                         name,
+                                         size = 30,
+                                         objectFit,
+                                         className = '',
                                          color,
-                                        rotate,
-                                     ...props
-                                   }) => {
+                                         rotate,
+                                         onClick,
+                                         ...props
+                                       }) => {
   const IconComponent = icons[name];
 
   if (!IconComponent) {
@@ -50,16 +54,19 @@ export const IconSvg: FC<IconProps> = ({
     return null;
   }
 
-  return (<div style={{width: `${size}px`, height: `${size}px`}}>
+  return (<div onClick={onClick} style={{
+      width: objectFit === 'coverWidth' || !objectFit ? `${size}px` : 'auto',
+      height: objectFit === 'coverHeight' || !objectFit ? `${size}px` : 'auto'
+    }}>
 
-    <IconComponent
-      className={`${styles.main} ${className}`}
-      width={`${size}`}
-      height={`${size}`}
-      fill={color ? colors[color] : colors['color-white']}
-      transform={rotate ? `rotate(${rotate})` : ''}
-      {...props}
-    />
+      <IconComponent
+        className={`${styles.main} ${className}`}
+        width={objectFit === 'coverWidth' || !objectFit ? `${size}` : undefined}
+        height={objectFit === 'coverHeight' || !objectFit ? `${size}` : undefined}
+        fill={color ? colors[color] : colors['color-white']}
+        transform={rotate ? `rotate(${rotate})` : ''}
+        {...props}
+      />
 
     </div>
   );
