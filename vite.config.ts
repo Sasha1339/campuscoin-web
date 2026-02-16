@@ -14,7 +14,7 @@ export default defineConfig({
   },
   build: {
     outDir: 'build',
-    chunkSizeWarningLimit: 1000
+    chunkSizeWarningLimit: 25000
   },
   resolve: {
     alias: {
