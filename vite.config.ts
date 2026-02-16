@@ -13,7 +13,8 @@ export default defineConfig({
     allowedHosts: [],
   },
   build: {
-    outDir: 'build'
+    outDir: 'build',
+    chunkSizeWarningLimit: 1000
   },
   resolve: {
     alias: {
