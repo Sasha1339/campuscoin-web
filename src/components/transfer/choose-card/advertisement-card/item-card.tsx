@@ -1,5 +1,5 @@
 import type {FC} from "react";
-import styles from './item-card.module.css';
+import './item-card.css';
 
 type Props = {}
 
