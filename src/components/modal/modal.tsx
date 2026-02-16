@@ -1,6 +1,6 @@
 import {FC, ReactNode, useEffect} from "react";
 import {createPortal} from "react-dom";
-import styles from "./Modal.module.css";
+import styles from "./modal.module.css";
 import {ModalOverlay} from "@/components/modal-overlay/modal-overlay.tsx";
 import {useNavigate} from "react-router-dom";
 import {IconSvg} from "@/components/shared/icon-svg/icon-svg.tsx";
